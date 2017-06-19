@@ -1,0 +1,52 @@
+<ion-view>
+  <ion-content>
+	<div class="list" style="height: 20% !important;padding-top:0px !important;margin-bottom:0px !important;padding-bottom:0px !important;">
+		<a class="item" href="#" style="background-color: #2273de!important;color: #fff !important;height:100% !important">
+			<div class="item" style="background-color:#2273de !important;color: #ffd916 !important">
+				Total Direct Benefit Transfer (Cumulative)
+			</div>
+			<div class="item" style="background-color:#2273de !important;color: #fff !important; font-weight:700px !important ">
+				<b>{{tdbt | currency:"₹":2}} Cr</b>
+			</div>
+		</a>
+		
+	</div>
+	<div class="list" style="height: 80% !important">
+		<a class="item item-thumbnail-right" href="#" style="background-color: #07529f!important;color: #fff !important;height:25% !important">
+			<img src="img/rupee-batch.png">
+			<h2 style="color: #fff !important;">TOTAL DIRECT BENEFIT TRANSFER</h2>
+			<h4 style="color: #fff !important;">(FY 2017-18)</h4>
+			<p style="color: #fff !important;">{{tdbt2 | currency:"₹":2}} Cr+</p>
+		</a>
+		<a class="item item-thumbnail-right" href="#" style="background-color: #e30573!important;color: #fff !important;height:25% !important">
+			<img src="img/user-icon.png">
+			<h2 style="color: #fff !important;">TOTAL NO. OF TRANSACTIONS</h2>
+			<h4 style="color: #fff !important;">(FY 2017-18)</h4>
+			<p style="color: #fff !important;">{{tnot | number:2}} Cr+</p>
+		</a>
+		<div class="item" href="#" style="color: #fff !important;height:25% !important;padding:0px !important;">
+			<div style="width:50%;float: left;height: 100%;background-color: #349910 !important;padding-left: 16px !important;padding-top: 16px!important;padding-bottom: 16px !important;" >
+				<div style="float: left;width: 50%;position: absolute;">
+					<h2 style="color: #fff !important;">NO. OF SCHEMES</h2>
+					<p style="color: #fff !important;">{{nos}}</p>
+				</div>
+				<img src="img/paper.png" style="float: left;width: 45%;margin-left: 62%;">
+			</div>
+			<div style="width:50%;float: left;height: 100%;background-color: #206d05 !important;padding-left: 16px !important;padding-top: 16px!important;padding-bottom: 16px !important;" >
+				<div style="float: left;width: 50%;position: absolute;">
+					<h2 style="color: #fff !important;">MINISTRIES</h2>
+					<p style="color: #fff !important;">{{ministries}}</p>
+				</div>
+				<img src="img/ministry.png" style="float: left;width: 54%;margin-left: 45%">
+			</div>
+
+		</div>
+		<a class="item item-thumbnail-right" href="#" style="background-color: #f9a20a!important;color: #fff !important;height:25% !important">
+			<img src="img/globe.png">
+			<h2 style="color: #fff !important;">TOTAL NO. OF TRANSACTIONS</h2>
+			<h4 style="color: #fff !important;">(FY 2017-18)</h4>
+			<p style="color: #fff !important;">{{tnot | number:2}} Cr+</p>
+		</a>
+	</div>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,34 @@
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar-positive">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+        </button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent"></ion-nav-view>
+  </ion-side-menu-content> 
+
+  <ion-side-menu side="left">
+    <ion-header-bar class="bar-positive">
+      <h1 class="title"></h1>
+    </ion-header-bar>
+    <ion-content style="background-color: #ffaa32 !important">
+      <ul class="list">
+        <div class="item item-avatar" style="background-color: #387ef5 !important">
+          <img src="img/logo.png">
+          <h2 style="color: #fff !important">Direct Benefit Transfer</h2>
+          <p style="color: #fff !important">Government of India</p>
+        </div>
+        <a href="#/app/home" class="item icon-left ion-home" menu-close style="background-color: #ffaa32 !important;color: #fff !important"> Home</a>
+        <a class="item icon ion-eye" menu-close style="background-color: #387ef5 !important;color: #fff !important" href="#/app/consolidatedView" > Consolidated View</a>
+        <a href="#/app/dbtOnboardedSchemes" class="item icon ion-clipboard" menu-close style="background-color: #ffaa32 !important;color: #fff !important"> DBT Onboarded Schemes
+        </a>
+        <a href="#/app/aadhaarEnabledServices" class="item icon ion-map" menu-close style="background-color: #387ef5 !important;color: #fff !important"> Aadhaar Enabled Services
+        </a>
+      </ul>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>
